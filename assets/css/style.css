@@ -1,0 +1,93 @@
+/* Simple CSS for styling */
+
+/**
+1 Navigation
+2 Hero section
+Footer section
+
+
+
+**/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.brand a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+ul li {
+    margin-left: 20px;
+}
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+.contact a {
+    color: #f1c40f;
+}
+
+.contact{
+    list-style: none;
+}
+
+/* service */
+
+
+section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Container for all cards */
+.service {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between the cards */
+    justify-items: center; /* Centers the items in the grid */
+}
+
+/* Styling individual card containers */
+.card-service {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Styling for the images inside the cards */
+.card-service img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Optional: Add hover effect to the cards */
+.card-service:hover {
+    transform: scale(1.05); /* Slightly zooms in on hover */
+}
+
+
+
